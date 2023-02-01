@@ -1,0 +1,43 @@
+
+body{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-style: italic;
+color: #3b4252;
+}
+header, section{
+    width: 1300px;
+    margin: 0px 10px 0px 10px;
+    display: flex;
+}
+header{
+    display: flex;
+    background-color:lightgrey;
+    color: black;
+    padding-top: 16px;
+    padding-left: 16px;
+}
+section{
+    display: flex;
+}
+img{
+    margin-right: 20px;
+}
+article{
+    width: 60% ;
+    background-color: azure;
+}
+ul{
+    list-style-type: upper-roman;
+}
+a, a:link, a:visited{
+    text-decoration: underline;
+    color:blue;
+    font-weight: bold;
+}
+progress{
+    margin-left: 8px;
+
+}
+.flex{ 
+    display: flex;
+}
